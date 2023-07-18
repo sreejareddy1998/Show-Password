@@ -1,8 +1,7 @@
 // Import stylesheets
 import './style.css';
-// import './index.html';
 // Write Javascript code!
-function myFunction() {
+window.myFunction = function () {
   let x = document.getElementById('password');
   if (x.type === 'password') {
     x.type = 'text';
@@ -10,4 +9,4 @@ function myFunction() {
     x.type = 'password';
   }
   console.log(x.type);
-}
+};
